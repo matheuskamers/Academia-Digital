@@ -6,7 +6,7 @@ import com.springboot.academiadigital.entity.AvaliacaoFisica;
 import com.springboot.academiadigital.entity.form.AvaliacaoFisicaForm;
 import com.springboot.academiadigital.entity.form.AvaliacaoFisicaUpdateForm;
 
-public interface AvaliacaoFisicaService {
+public interface IAvaliacaoFisicaService {
      /**
    * Cria uma Avaliação Física e salva no banco de dados.
    * @param form - formulário referente aos dados para criação da Avaliação Física no banco de dados.

@@ -5,7 +5,7 @@ import java.util.List;
 import com.springboot.academiadigital.entity.Matricula;
 import com.springboot.academiadigital.entity.form.MatriculaForm;
 
-public interface MatriculaService {
+public interface IMatriculaService {
     
     /**
    * Cria uma Matrícula e salva no banco de dados.

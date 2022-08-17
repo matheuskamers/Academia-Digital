@@ -3,10 +3,11 @@ package com.springboot.academiadigital.service;
 import java.util.List;
 
 import com.springboot.academiadigital.entity.Aluno;
+import com.springboot.academiadigital.entity.AvaliacaoFisica;
 import com.springboot.academiadigital.entity.form.AlunoForm;
 import com.springboot.academiadigital.entity.form.AlunoUpdateForm;
 
-public interface AlunoService {
+public interface IAlunoService {
     /**
    * Cria um Aluno e salva no banco de dados.
    * @param form - formulário referente aos dados para criação de um Aluno no banco de dados.
@@ -41,5 +42,7 @@ public interface AlunoService {
    * @param id - id do Aluno que será removido.
    */
   void delete(Long id);
+
+  List<AvaliacaoFisica> getAllAvaliacaoFisicaId(Long id);
 }
 
